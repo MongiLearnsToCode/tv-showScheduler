@@ -1,1 +1,10 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
 
+@layer base {
+  :root {
+    --border: 220 13% 91%;
+    /* Add any other custom color variables here */
+  }
+}
